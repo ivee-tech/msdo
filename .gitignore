@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# microsoft.security.devops.cli
+microsoft.security.devops.cli.*
