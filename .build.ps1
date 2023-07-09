@@ -7,7 +7,7 @@ Expand-Archive -Path .\microsoft.security.devops.cli.$v.nupkg -Force
 # Use the following command to build the image locally:
 # versions: 0.164.1
 $tag=$v
-docker build -t msdo:${tag} --build-arg VERSION=${tag} -f Dockerfile.ubuntu .
+docker build -t msdo:${tag} --build-arg VERSION=${tag} .
 
 # Tag the image and push to docker hub:
 

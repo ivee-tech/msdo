@@ -14,6 +14,6 @@ COPY ./microsoft.security.devops.cli.${VERSION} ./microsoft.security.devops.cli.
 COPY ./script.sh .
 RUN chmod +x script.sh
 
-# CMD ["/bin/bash", "./script.sh"]
+CMD ["/bin/bash", "./script.sh"]
 
-ENTRYPOINT [ "/bin/bash", "./script.sh" ]
+# ENTRYPOINT [ "/bin/bash", "./script.sh" ]
